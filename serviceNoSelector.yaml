@@ -6,7 +6,7 @@ metadata:
     service: external
 spec:
   ports:
-    - name: http
+    - name: https
       protocol: TCP
       port: 443
       targetPort: 443
@@ -22,4 +22,4 @@ subsets:
       - ip: 45.54.44.102
     ports:
       - port: 443
-        name: http
+        name: https
